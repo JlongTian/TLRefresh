@@ -42,4 +42,4 @@ typedef void(^CallBack)();
 ```
 
 
-![上下拉刷新效果图](http://upload-images.jianshu.io/upload_images/1318303-83b222f2976eb895.gif?imageMogr2/auto-orient/strip)
+![image](https://github.com/JlongTian/TLRefresh/blob/master/image/show.gif)
