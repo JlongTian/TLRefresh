@@ -16,6 +16,12 @@
 
 #define kRefreshViewH 64
 
+static char refreshHeaderKey;
+static char refreshFooterKey;
+static char headerCallBackKey;
+static char footerCallBackKey;
+static char stausKey;
+
 typedef enum : NSUInteger {
     TLRefreshStausEndRefresh,
     TLRefreshStausHeaderRefreshing,
@@ -33,12 +39,6 @@ typedef enum : NSUInteger {
 @end
 
 @implementation UIScrollView (TLRefresh)
-
-static char refreshHeaderKey;
-static char refreshFooterKey;
-static char headerCallBackKey;
-static char footerCallBackKey;
-static char stausKey;
 
 #pragma mark - setter和getter方法
 
@@ -98,6 +98,7 @@ static char stausKey;
     
 }
 
+
 - (UILabel *)creatRefreshHeader{
     
     UILabel *refreshHeader = [[UILabel alloc] initWithFrame:CGRectMake(0, -kRefreshViewH, self.frame.size.width, kRefreshViewH)];
@@ -134,7 +135,6 @@ static char stausKey;
  */
 - (void)addFooterWithCallBack:(CallBack)callBack{
     
-   
     self.refreshFooter = [self creatRefreshFooter];
     self.footerCallBack = callBack;
     [self addObserver];

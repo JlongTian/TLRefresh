@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89040FE41E645B6900264DB3 /* UIScrollView+TLRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 89040FE31E645B6900264DB3 /* UIScrollView+TLRefresh.m */; };
 		89040FE81E646DFA00264DB3 /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89040FE61E646DFA00264DB3 /* TLViewController.m */; };
+		8911D2DC1E85EAC500E270EC /* CYLDeallocExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8911D2D71E85EAC500E270EC /* CYLDeallocExecutor.m */; };
+		8911D2DD1E85EAC500E270EC /* NSObject+CYLDeallocBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8911D2D91E85EAC500E270EC /* NSObject+CYLDeallocBlockExecutor.m */; };
+		8911D2DE1E85EAC500E270EC /* UIScrollView+TLRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8911D2DB1E85EAC500E270EC /* UIScrollView+TLRefresh.m */; };
 		8957C6291E60639B00A30CDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957C6281E60639B00A30CDB /* main.m */; };
 		8957C62C1E60639B00A30CDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957C62B1E60639B00A30CDB /* AppDelegate.m */; };
 		8957C6321E60639B00A30CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8957C6301E60639B00A30CDB /* Main.storyboard */; };
@@ -16,8 +18,6 @@
 		8957C6371E60639B00A30CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8957C6351E60639B00A30CDB /* LaunchScreen.storyboard */; };
 		8957C6421E60639B00A30CDB /* TLRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957C6411E60639B00A30CDB /* TLRefreshTests.m */; };
 		8957C64D1E60639B00A30CDB /* TLRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957C64C1E60639B00A30CDB /* TLRefreshUITests.m */; };
-		89AAA2FF1E64F69100758E4A /* CYLDeallocExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AAA2FC1E64F69100758E4A /* CYLDeallocExecutor.m */; };
-		89AAA3001E64F69100758E4A /* NSObject+CYLDeallocBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AAA2FE1E64F69100758E4A /* NSObject+CYLDeallocBlockExecutor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		89040FE21E645B6900264DB3 /* UIScrollView+TLRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TLRefresh.h"; sourceTree = "<group>"; };
-		89040FE31E645B6900264DB3 /* UIScrollView+TLRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TLRefresh.m"; sourceTree = "<group>"; };
 		89040FE51E646DFA00264DB3 /* TLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
 		89040FE61E646DFA00264DB3 /* TLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
+		8911D2D51E85EAC500E270EC /* CYLDeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDeallocBlockExecutor.h; sourceTree = "<group>"; };
+		8911D2D61E85EAC500E270EC /* CYLDeallocExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDeallocExecutor.h; sourceTree = "<group>"; };
+		8911D2D71E85EAC500E270EC /* CYLDeallocExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDeallocExecutor.m; sourceTree = "<group>"; };
+		8911D2D81E85EAC500E270EC /* NSObject+CYLDeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CYLDeallocBlockExecutor.h"; sourceTree = "<group>"; };
+		8911D2D91E85EAC500E270EC /* NSObject+CYLDeallocBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CYLDeallocBlockExecutor.m"; sourceTree = "<group>"; };
+		8911D2DA1E85EAC500E270EC /* UIScrollView+TLRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TLRefresh.h"; sourceTree = "<group>"; };
+		8911D2DB1E85EAC500E270EC /* UIScrollView+TLRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TLRefresh.m"; sourceTree = "<group>"; };
 		8957C6241E60639B00A30CDB /* TLRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8957C6281E60639B00A30CDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8957C62A1E60639B00A30CDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,11 +61,6 @@
 		8957C6481E60639B00A30CDB /* TLRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8957C64C1E60639B00A30CDB /* TLRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLRefreshUITests.m; sourceTree = "<group>"; };
 		8957C64E1E60639B00A30CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89AAA2FA1E64F69100758E4A /* CYLDeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDeallocBlockExecutor.h; sourceTree = "<group>"; };
-		89AAA2FB1E64F69100758E4A /* CYLDeallocExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDeallocExecutor.h; sourceTree = "<group>"; };
-		89AAA2FC1E64F69100758E4A /* CYLDeallocExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDeallocExecutor.m; sourceTree = "<group>"; };
-		89AAA2FD1E64F69100758E4A /* NSObject+CYLDeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CYLDeallocBlockExecutor.h"; sourceTree = "<group>"; };
-		89AAA2FE1E64F69100758E4A /* NSObject+CYLDeallocBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CYLDeallocBlockExecutor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +88,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8911D2D31E85EAC500E270EC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8911D2D41E85EAC500E270EC /* CYLDeallocBlockExecutor */,
+				8911D2DA1E85EAC500E270EC /* UIScrollView+TLRefresh.h */,
+				8911D2DB1E85EAC500E270EC /* UIScrollView+TLRefresh.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8911D2D41E85EAC500E270EC /* CYLDeallocBlockExecutor */ = {
+			isa = PBXGroup;
+			children = (
+				8911D2D51E85EAC500E270EC /* CYLDeallocBlockExecutor.h */,
+				8911D2D61E85EAC500E270EC /* CYLDeallocExecutor.h */,
+				8911D2D71E85EAC500E270EC /* CYLDeallocExecutor.m */,
+				8911D2D81E85EAC500E270EC /* NSObject+CYLDeallocBlockExecutor.h */,
+				8911D2D91E85EAC500E270EC /* NSObject+CYLDeallocBlockExecutor.m */,
+			);
+			path = CYLDeallocBlockExecutor;
+			sourceTree = "<group>";
+		};
 		8957C61B1E60639B00A30CDB = {
 			isa = PBXGroup;
 			children = (
@@ -111,13 +133,11 @@
 		8957C6261E60639B00A30CDB /* TLRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				89AAA2F91E64F69100758E4A /* CYLDeallocBlockExecutor */,
+				8911D2D31E85EAC500E270EC /* Class */,
 				8957C62A1E60639B00A30CDB /* AppDelegate.h */,
 				8957C62B1E60639B00A30CDB /* AppDelegate.m */,
 				89040FE51E646DFA00264DB3 /* TLViewController.h */,
 				89040FE61E646DFA00264DB3 /* TLViewController.m */,
-				89040FE21E645B6900264DB3 /* UIScrollView+TLRefresh.h */,
-				89040FE31E645B6900264DB3 /* UIScrollView+TLRefresh.m */,
 				8957C6301E60639B00A30CDB /* Main.storyboard */,
 				8957C6331E60639B00A30CDB /* Assets.xcassets */,
 				8957C6351E60639B00A30CDB /* LaunchScreen.storyboard */,
@@ -151,18 +171,6 @@
 				8957C64E1E60639B00A30CDB /* Info.plist */,
 			);
 			path = TLRefreshUITests;
-			sourceTree = "<group>";
-		};
-		89AAA2F91E64F69100758E4A /* CYLDeallocBlockExecutor */ = {
-			isa = PBXGroup;
-			children = (
-				89AAA2FA1E64F69100758E4A /* CYLDeallocBlockExecutor.h */,
-				89AAA2FB1E64F69100758E4A /* CYLDeallocExecutor.h */,
-				89AAA2FC1E64F69100758E4A /* CYLDeallocExecutor.m */,
-				89AAA2FD1E64F69100758E4A /* NSObject+CYLDeallocBlockExecutor.h */,
-				89AAA2FE1E64F69100758E4A /* NSObject+CYLDeallocBlockExecutor.m */,
-			);
-			path = CYLDeallocBlockExecutor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,10 +309,10 @@
 			files = (
 				89040FE81E646DFA00264DB3 /* TLViewController.m in Sources */,
 				8957C62C1E60639B00A30CDB /* AppDelegate.m in Sources */,
-				89040FE41E645B6900264DB3 /* UIScrollView+TLRefresh.m in Sources */,
-				89AAA2FF1E64F69100758E4A /* CYLDeallocExecutor.m in Sources */,
-				89AAA3001E64F69100758E4A /* NSObject+CYLDeallocBlockExecutor.m in Sources */,
+				8911D2DC1E85EAC500E270EC /* CYLDeallocExecutor.m in Sources */,
 				8957C6291E60639B00A30CDB /* main.m in Sources */,
+				8911D2DD1E85EAC500E270EC /* NSObject+CYLDeallocBlockExecutor.m in Sources */,
+				8911D2DE1E85EAC500E270EC /* UIScrollView+TLRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
